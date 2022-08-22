@@ -7,21 +7,29 @@ body {
     background-color: #3d4152;
 }
 .container {
-    flex-direction: column;
+    justify-content: baseline;
 }
 nav {
     color: red;
     font-size: xx-large;  
     background-color: white; 
-    text-align: right;
+    text-align: center;
 }
+/* .nav .logo {
+text-align: right;
+}
+.nav.navText.p {
+    text-align: right;
+} */
 .quote-container {
     color: white;
-    width:fit-content;
-    margin: auto;
-    padding: 10px;
+    width: fit-content;
+    margin: 10px;
+    padding: 20px;
     border: black;
     background-color: black;
+    margin-top: 50px;
+    font-size: x-large;
 }
 .footer {
    position: absolute;
